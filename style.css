@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:ital,wght@0,100;1,300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color: #270082;
+    color: white;
+    padding: 20px 0px;
+    align-items: center;
+    box-shadow: 5px 5px 5px rgb(0 0 0 / 50%);
+    position: sticky;
+    top: 0;
+    z-index: 199;
+    justify-content: space-around;
+}
+
+nav .my_tunes {
+    font-size: 38px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    gap: 23px;
+    font-size: 19px;
+    font-weight: 100;
+    font-family: system-ui;
+}
+
+nav ul li {
+    list-style: none;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+    border-bottom: 2px solid transparent;
+}
+
+nav ul li:hover {
+    border-bottom: 2px solid white;
+}
+
+main .main_section,
+.four {
+    text-align: center;
+    background-image: url('https://practice-project-html-css.vercel.app/Project%206/images/hero_image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 89vh;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main_section h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.main_section h3 {
+    font-size: 1.4rem;
+}
+
+.main_section p,
+.four p {
+    font-size: 19px;
+    text-align: center;
+    padding: 0 75px;
+}
+
+.two {
+    display: flex;
+    text-align: center;
+    background: #281154;
+    padding: 25px;
+    position: relative;
+    padding-bottom: 400px;
+    margin-bottom: 231px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.two .container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.two .music {
+    font-size: 30px;
+}
+
+.two p {
+    font-size: 17px;
+    text-align: center;
+    padding: 0 71px;
+    /* font-weight: bold; */
+
+}
+
+.container button {
+    padding: 11px 18px;
+    background: #eb4040;
+    color: white;
+    font-size: 16px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.container button:hover{
+    background-color:#e75d5d ;
+}
+
+.img1 {
+    margin: 53px 0;
+    position: absolute;
+    top: 50%;
+}
+
+.img1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.three {
+    max-width: 1200px;
+    margin: 403px auto 0;
+    padding: 30px;
+}
+
+.three .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.container2 p {
+    font-size: 18px;
+    padding: 22px;
+    text-align: center;
+}
+
+.container2 button {
+    background: #270082;
+    color: white;
+    padding: 7px 9px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.container2 button:hover{
+    background: #6f3de6;
+}
+
+.container2 .img2 {
+    margin-top: 35px;
+}
+.img2 img {
+    width: 100%;
+}
+
+.four {
+    background: url('https://practice-project-html-css.vercel.app/Project%206/images/video.png');
+    min-height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.five {
+    padding: 46px 108px 23px;
+    margin: 50px auto;
+
+
+}
+
+.container3 {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container3 .content {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    justify-content: center;
+}
+
+.content h3 {
+    font-size: 26px;
+}
+
+.content .devider {
+    border: 1px solid rgb(209, 195, 195);
+    margin: 15px 0 -8px 0;
+}
+
+
+
+.content button {
+    align-self: flex-start;
+    background-color: #541bd8;
+    color: white;
+    font-size: 18px;
+    padding: 7px 12px;
+    cursor: pointer;
+    border: none;
+}
+
+.content button:hover{
+    background: #6f3de6;
+}
+
+.last {
+    background-color: #1b0058;
+    padding: 30px 20px;
+}
+
+.container4 {
+    display: flex;
+    gap: 20px;
+    color: white;
+    justify-content: space-around;
+}
+
+.l,
+.l ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.l ul li {
+    list-style: none;
+}
+
+.l .deevider {
+    border: 1px solid white;
+}
+
+footer {
+    background-color: #270082;
+    color: white;
+}
+
+footer p {
+    text-align: center;
+    padding: 12px;
+    font-size: 19px;
+
+}
+
+@media screen and (max-width : 980px) {
+    .wrapper {
+        width: 62pc;
+    }
+}
